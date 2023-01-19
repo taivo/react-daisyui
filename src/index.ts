@@ -264,6 +264,7 @@ export type WindowMockupProps = TWindowMockupProps
 
 // Utils > Theme
 export { default as Theme } from './Theme'
+export {default as ThemeItem} from './Theme/ThemeItem'
 import { ThemeProps as TThemeProps } from './Theme'
 export type ThemeProps = TThemeProps
 export { useTheme } from './Theme/useTheme'
